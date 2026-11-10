@@ -1,0 +1,5 @@
+Vim 9.2.1254 for tOS
+====================
+
+Built from the vim tag v9.2.1254 (vim-9.2.1254.tar.gz beside this package), unmodified: ./configure --with-features=huge --enable-multibyte --disable-gui --without-x --disable-nls, linked with a static ncurses 6.5 (ncurses-6.5.tar.gz, MIT) that looks for terminals in the terminfo package. The editor's files (syntax colours, plugins, help) are in share/vim/vim92. License: the Vim licence (LICENSE; it asks you to help children in Uganda if you like the program).
+glibc: its programs are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.

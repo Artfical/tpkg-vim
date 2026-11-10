@@ -1,0 +1,31 @@
+{
+ "name": "vim",
+ "version": "9.2.1254",
+ "license": "Vim",
+ "homepage": "https://www.vim.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "vim-9.2.1254.tar.gz",
+  "ncurses-6.5.tar.gz"
+ ],
+ "desc": "Vim 9.2: the text editor (huge feature set, no GUI; 64-bit tOS)",
+ "file": "vim-9.2.1254.tpkg",
+ "size": 10910698,
+ "sha256": "54645960d5d3e3e94ac503e5c1b08a99ff216b3b8736ae8fc2b786abc8e959d7",
+ "unpacked": 33874513,
+ "min_build": 616,
+ "depends": [
+  "terminfo"
+ ],
+ "commands": {
+  "vim": "bin/vim",
+  "vi": "bin/vim -N",
+  "view": "bin/vim -R",
+  "ex": "bin/vim -e",
+  "vimdiff": "bin/vim -d",
+  "xxd": "bin/xxd"
+ }
+}
